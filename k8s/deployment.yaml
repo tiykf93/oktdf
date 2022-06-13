@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - image: okteto.dev/ray:latest
-        name: ray
+        name: oktdf
         ports:
         - containerPort: 8080
         env:
