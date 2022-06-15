@@ -13,7 +13,7 @@ spec:
         app: oktdf
     spec:
       containers:
-      - image: okteto.dev/ray:latest
+      - image: okteto.dev/oktdf:latest
         name: oktdf
         ports:
         - containerPort: 8080
